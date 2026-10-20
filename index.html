@@ -1,106 +1,378 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>SPL Tech | Infraestrutura que conecta. Tecnologia que protege.</title>
-
+    <meta name="description" content="SPL Tech: redes, cabeamento estruturado, CFTV, controle de acesso e infraestrutura tecnológica em Belo Horizonte e região.">
+    <title>SPL Tech | Infraestrutura e Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
 
-    <header>
+    <!-- CABEÇALHO SPL TECH -->
+<header class="spl-header">
+    <a href="#inicio" class="logo-link brand-lockup" aria-label="SPL Tech — Infraestrutura que conecta. Tecnologia que protege.">
+        <img src="assets/identidade/logo-branco-com-slogan.png"
+             alt="SPL Tech — Infraestrutura que conecta. Tecnologia que protege."
+             class="brand-full-logo">
+    </a>
 
-        <h1>SPL Tech</h1>
+    <button class="spl-mobile-toggle" type="button" aria-label="Abrir menu"
+            aria-expanded="false" aria-controls="spl-nav">
+        <span></span><span></span><span></span>
+    </button>
 
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#tecnologias">Tecnologias</a>
-            <a href="#contato">Contato</a>
-        </nav>
+    <nav class="spl-nav" id="spl-nav" aria-label="Navegação principal">
+        <a class="spl-nav-link" href="#inicio">Início</a>
+        <button class="spl-nav-link spl-menu-trigger" type="button" data-menu="servicos" aria-expanded="false">
+            Serviços
+        </button>
+        <button class="spl-nav-link spl-menu-trigger" type="button" data-menu="projetos" aria-expanded="false">
+            Projetos
+        </button>
+        <button class="spl-nav-link spl-menu-trigger" type="button" data-menu="tecnologias" aria-expanded="false">
+            Tecnologias
+        </button>
+        <a class="spl-nav-link" href="#contato">Contato</a>
+    </nav>
+</header>
+<div id="spl-mega-root"></div>
+<main>
 
-    </header>
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero corporate-hero">
+
+            <div class="hero-content">
+
+                <span class="hero-tag">SPL TECH</span>
+
+                <h2>
+                    Infraestrutura que conecta.<br>
+                    <span class="hero-highlight">Tecnologia que protege.</span>
+                </h2>
+
+                <p>
+                    Redes, CFTV, controle de acesso e soluções tecnológicas
+                    para empresas e condomínios.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="https://wa.me/5592981538222" class="btn-primary whatsapp-cta whatsapp-pulse" target="_blank" rel="noopener noreferrer">
+                        <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                            <path fill="currentColor" d="M16.04 3C8.87 3 3.04 8.82 3.04 16c0 2.29.6 4.44 1.65 6.3L3 29l6.88-1.8A12.94 12.94 0 0 0 16.04 29C23.22 29 29.04 23.18 29.04 16S23.22 3 16.04 3Zm0 23.65c-2.02 0-4-.54-5.72-1.57l-.41-.24-4.08 1.07 1.09-3.98-.27-.43A10.62 10.62 0 1 1 16.04 26.65Zm5.83-7.96c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.72.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.58-1.59-.95-.84-1.59-1.88-1.78-2.2-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.57-.08-.16-.72-1.74-.99-2.38-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.68s1.16 3.11 1.32 3.33c.19.32 2.28 3.48 5.53 4.88.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.37-1.39.19-1.53-.08-.13-.3-.21-.62-.37Z"/>
+                        </svg>
+                        <span>Falar pelo WhatsApp</span>
+                    </a>
+                    <a href="#servicos" class="btn-secondary">Nossos serviços</a>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img class="hero-installation-image" src="assets/menu/projeto-videowall.png"
+                     alt="Painel de video wall instalado com a identidade visual da SPL Tech">
+            </div>
+
+        </section>
 
 
-    <main>
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="services-section">
 
-        <section id="inicio">
+            <div class="section-heading">
+                <span class="hero-tag">O QUE FAZEMOS</span>
 
-            <h2>Infraestrutura que conecta. Tecnologia que protege.</h2>
+                <h2>Soluções em tecnologia e infraestrutura</h2>
 
-            <p>
-                Redes, CFTV, controle de acesso e soluções tecnológicas
-                para empresas e condomínios.
-            </p>
+                <p>
+                    Projetos, instalações e suporte para empresas e condomínios.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card service-card-with-image">
+                    <img class="section-card-image rack-card-image" src="assets/menu/servico-redes.jpg" alt="Rack de rede organizado com cabeamento azul" loading="lazy">
+                    <img class="service-icon-image" src="assets/identidade/icone-redes.png" alt="" loading="lazy">
+                    <h3>Redes e cabeamento</h3>
+                    <p>
+                        Cabeamento estruturado, organização da infraestrutura
+                        e configuração de redes.
+                    </p>
+                </article>
+
+                <article class="service-card service-card-with-image">
+                    <img class="section-card-image" src="assets/menu/servico-cftv.jpg" alt="" loading="lazy">
+                    <img class="service-icon-image" src="assets/identidade/icone-cftv.png" alt="" loading="lazy">
+                    <h3>CFTV IP e analógico</h3>
+                    <p>
+                        Instalação, configuração e manutenção de sistemas
+                        de videomonitoramento.
+                    </p>
+                </article>
+
+                <article class="service-card service-card-with-image">
+                    <img class="section-card-image" src="assets/menu/servico-wifi.jpg" alt="" loading="lazy">
+                    <img class="service-icon-image" src="assets/identidade/icone-manutencao.png" alt="" loading="lazy">
+                    <h3>Configuração de redes</h3>
+                    <p>
+                        Arquitetura, validação e ajustes de equipamentos
+                        e conectividade.
+                    </p>
+                </article>
+
+                <article class="service-card service-card-with-image">
+                    <img class="section-card-image" src="assets/menu/servico-acesso.jpg" alt="" loading="lazy">
+                    <img class="service-icon-image" src="assets/identidade/icone-acesso.png" alt="" loading="lazy">
+                    <h3>Controle de acesso</h3>
+                    <p>
+                        Soluções para gerenciamento e controle de entrada
+                        em ambientes.
+                    </p>
+                </article>
+
+                <article class="service-card service-card-with-image">
+                    <img class="section-card-image" src="assets/menu/servico-interfonia.jpg" alt="" loading="lazy">
+                    <img class="service-icon-image" src="assets/identidade/icone-interfonia.png" alt="" loading="lazy">
+                    <h3>Interfonia e alarmes</h3>
+                    <p>
+                        Instalação, configuração e manutenção de sistemas
+                        de comunicação e segurança.
+                    </p>
+                </article>
+
+                <article class="service-card service-card-with-image">
+                    <img class="section-card-image" src="assets/menu/servico-condominios.jpg" alt="" loading="lazy">
+                    <img class="service-icon-image" src="assets/identidade/icone-condominios.png" alt="" loading="lazy">
+                    <h3>Soluções para condomínios</h3>
+                    <p>
+                        Manutenção de tecnologia e equipamentos conectados
+                        em ambientes condominiais.
+                    </p>
+                </article>
+
+            </div>
 
         </section>
 
 
-        <section id="servicos">
+        <!-- PROJETOS -->
+        <section id="projetos" class="projects-section">
 
-            <h2>Serviços</h2>
+            <div class="section-heading">
+                <span class="hero-tag">NOSSO TRABALHO</span>
 
-            <p>
-                Soluções em redes, infraestrutura, CFTV,
-                controle de acesso e tecnologia.
-            </p>
+                <h2>Projetos e instalações</h2>
 
-        </section>
+                <p>
+                    Conheça as soluções de infraestrutura e tecnologia
+                    realizadas pela SPL Tech.
+                </p>
+            </div>
 
+            <div class="project-showcase" id="project-showcase">
+                <div class="project-tabs" role="tablist" aria-label="Categorias de projetos">
+                    <button class="project-tab is-active" type="button" role="tab" aria-selected="true" data-project-category="redes">Redes e cabeamento</button>
+                    <button class="project-tab" type="button" role="tab" aria-selected="false" data-project-category="cftv">CFTV</button>
+                    <button class="project-tab" type="button" role="tab" aria-selected="false" data-project-category="infra">Infraestrutura</button>
+                </div>
+                <div class="project-carousel" aria-label="Galeria de projetos">
+                    <button class="project-carousel-arrow project-carousel-prev" type="button" aria-label="Imagem anterior">‹</button>
+                    <div class="project-carousel-viewport">
+                        <div class="project-carousel-track" id="project-carousel-track"></div>
+                    </div>
+                    <button class="project-carousel-arrow project-carousel-next" type="button" aria-label="Próxima imagem">›</button>
+                </div>
+                <div class="project-carousel-footer">
+                    <div class="project-carousel-caption"><strong id="project-carousel-title">Rack de telecomunicações instalado</strong><span id="project-carousel-description">Registros reais de instalações e infraestrutura executadas.</span></div>
 
-        <section id="projetos">
-
-            <h2>Projetos</h2>
-
-            <p>
-                Alguns dos projetos e instalações realizados pela SPL Tech.
-            </p>
-
-        </section>
-
-
-        <section id="tecnologias">
-
-            <h2>Tecnologias</h2>
-
-            <p>
-                Experiência com UniFi, MikroTik, FortiGate,
-                Intelbras, Hikvision e outras tecnologias.
-            </p>
-
-        </section>
-
-
-        <section id="contato">
-
-            <h2>Contato</h2>
-
-            <p>
-                Fale com a SPL Tech.
-            </p>
+                </div>
+            </div>
 
         </section>
+
+
+        <!-- TECNOLOGIAS -->
+
+<section id="tecnologias" class="services-section">
+
+    <div class="section-heading">
+        <span class="hero-tag">TECNOLOGIAS</span>
+        <h2>Equipamentos e conectividade</h2>
+        <p>
+            Experiência com tecnologias de redes, segurança eletrônica
+            e conectividade para empresas e condomínios.
+        </p>
+    </div>
+
+    <div class="services-grid">
+
+        <article class="service-card technology-card">
+            <img src="assets/fabricantes/Unifi.png"
+                 alt="UniFi"
+                 class="manufacturer-logo">
+            <h3>UniFi</h3>
+            <p>Configuração de equipamentos e infraestrutura de conectividade.</p>
+        </article>
+
+        <article class="service-card technology-card">
+            <img src="icones/MIKROTIK.png" alt="Equipamento MikroTik" class="manufacturer-logo"
+                 alt="MikroTik"
+                 class="manufacturer-logo">
+            <h3>MikroTik</h3>
+            <p>Configuração de redes e equipamentos de conectividade.</p>
+        </article>
+
+        <article class="service-card technology-card">
+           <img src="icones/firewall-fortinet-fortigate-200g-unified-threat-protection-utp-p-1776711067708.png"
+                 alt="Fortinet"
+                 class="manufacturer-logo">
+            <h3>Fortinet / FortiGate</h3>
+            <p>Configuração de equipamentos de segurança de rede.</p>
+        </article>
+
+        <article class="service-card technology-card">
+           <img src="icones/Intelbras Logo PNG Vector (EPS) Free Download.png"
+                 alt="Intelbras"
+                 class="manufacturer-logo">
+            <h3>Intelbras</h3>
+            <p>Soluções de CFTV, interfonia, alarmes e controle de acesso.</p>
+        </article>
+
+        <article class="service-card technology-card">
+            <img src="icones/HIKVISION-removebg-preview.png"
+                 alt="Hikvision"
+                 class="manufacturer-logo">
+            <h3>Hikvision</h3>
+            <p>Tecnologias de videomonitoramento e segurança eletrônica.</p>
+        </article>
+
+        
+       
+<article class="service-card technology-card other-technologies">
+
+    <div class="other-tech-label">E MUITO MAIS</div>
+
+    <h3>Outras tecnologias</h3>
+
+    <p>
+        Integração, configuração e suporte a diferentes
+        fabricantes conforme cada projeto.
+    </p>
+
+    <div class="brand-carousel" aria-label="Outros fabricantes">
+        <div class="brand-track">
+            <span class="brand-tile microsoft">Microsoft</span>
+            <span class="brand-tile epson">EPSON</span>
+            <span class="brand-tile tplink">tp-link</span>
+            <span class="brand-tile lenovo">Lenovo</span>
+            <span class="brand-tile cisco">CISCO</span>
+            <span class="brand-tile dell">DELL</span>
+
+            <span class="brand-tile microsoft">Microsoft</span>
+            <span class="brand-tile epson">EPSON</span>
+            <span class="brand-tile tplink">tp-link</span>
+            <span class="brand-tile lenovo">Lenovo</span>
+            <span class="brand-tile cisco">CISCO</span>
+            <span class="brand-tile dell">DELL</span>
+        </div>
+    </div>
+
+</article>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+        <!-- CONTATO -->
+        
+<section id="contato" class="contact-section">
+
+    <div class="contact-content">
+
+        <span class="hero-tag">FALE COM A SPL TECH</span>
+
+        <h2>
+            Seu próximo projeto começa com
+            <span>uma boa conexão.</span>
+        </h2>
+
+        <p>
+            Precisa de uma solução em redes, CFTV, controle de acesso
+            ou infraestrutura tecnológica? Nossa equipe está pronta
+            para conversar sobre sua necessidade.
+        </p>
+
+        <a
+            href="https://wa.me/5592981538222"
+            class="btn-primary whatsapp-cta whatsapp-pulse"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Falar com a SPL Tech pelo WhatsApp">
+            <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M16.04 3C8.87 3 3.04 8.82 3.04 16c0 2.29.6 4.44 1.65 6.3L3 29l6.88-1.8A12.94 12.94 0 0 0 16.04 29C23.22 29 29.04 23.18 29.04 16S23.22 3 16.04 3Zm0 23.65c-2.02 0-4-.54-5.72-1.57l-.41-.24-4.08 1.07 1.09-3.98-.27-.43A10.62 10.62 0 1 1 16.04 26.65Zm5.83-7.96c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.72.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.58-1.59-.95-.84-1.59-1.88-1.78-2.2-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.57-.08-.16-.72-1.74-.99-2.38-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.68s1.16 3.11 1.32 3.33c.16.21 2.28 3.48 5.53 4.88.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.3-.21-.62-.37Z"/>
+            </svg>
+            <span>Falar pelo WhatsApp</span>
+        </a>
+
+        <a
+            href="mailto:contato@spltech.com.br?subject=Contato%20pelo%20site%20SPL%20Tech"
+            class="btn-primary email-cta"
+            aria-label="Enviar e-mail para a SPL Tech">
+            <svg class="email-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M3 5.5h18v13H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="m4 6.5 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Enviar e-mail</span>
+        </a>
+
+        <div class="contact-email-address">
+            <a href="mailto:contato@spltech.com.br">contato@spltech.com.br</a>
+        </div>
+
+        <div class="contact-details">
+            <span>Belo Horizonte e região</span>
+            <span>Redes • CFTV • Segurança eletrônica</span>
+        </div>
+
+    </div>
+
+</section>
+
 
     </main>
 
 
-    <footer>
-
-        <p>
-            SPL Tech — Belo Horizonte e região
-        </p>
-
+    <!-- RODAPÉ -->
+    <footer class="spl-footer">
+        <p>SPL Tech — Belo Horizonte e região</p>
+        <p>Redes • CFTV • Segurança eletrônica • Infraestrutura tecnológica</p>
     </footer>
 
+    <a
+        class="whatsapp-float whatsapp-pulse"
+        href="https://wa.me/5592981538222"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Abrir conversa com a SPL Tech no WhatsApp"
+        title="Fale conosco pelo WhatsApp">
+        <svg class="whatsapp-icon whatsapp-icon-floating" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M16.04 3C8.87 3 3.04 8.82 3.04 16c0 2.29.6 4.44 1.65 6.3L3 29l6.88-1.8A12.94 12.94 0 0 0 16.04 29C23.22 29 29.04 23.18 29.04 16S23.22 3 16.04 3Zm0 23.65c-2.02 0-4-.54-5.72-1.57l-.41-.24-4.08 1.07 1.09-3.98-.27-.43A10.62 10.62 0 1 1 16.04 26.65Zm5.83-7.96c-.32-.16-1.9-.94-2.2-1.05-.3-.11-.51-.16-.72.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.58-1.59-.95-.84-1.59-1.88-1.78-2.2-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.57-.08-.16-.72-1.74-.99-2.38-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.68s1.16 3.11 1.32 3.33c.16.21 2.28 3.48 5.53 4.88.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.3-.21-.62-.37Z"/>
+        </svg>
+    </a>
+
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
